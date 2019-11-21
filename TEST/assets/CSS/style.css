@@ -249,11 +249,63 @@ hr {
     background-color: #fff;
     color: #e84c3d;
 }
+/*Section*/
+
+.section {
+    padding: 80px 0;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+
+
+
+/*About*/
+
+.about {
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item {
+    width: 380px;
+    display: block;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    opacity: 1;
+    position: relative;
+}
 
 
 
 
+.about__text {
+    width: 100%;
 
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    opacity: 1;
 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 10000;
+    transform: translate3d(0,-50%,0);
+
+    transition: opacity .2s linear;
+}
 
 
