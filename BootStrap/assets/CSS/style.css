@@ -1,40 +1,88 @@
-:root{
+:root {
     --main-bg-color: #2a80b9;
-    --main-drk-bg-color:#86c1ea;
+    --main-drk-bg-color: #86c1ea;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
-.color1{
+.color1 {
     background: var(--main-bg-color);
     font-weight: 700;
     color: #fff;
     height: 51px;
 }
 
-.color2{
-    
-    background: #2ab942;
-    height: 51px;
+.color2 {
+    background: #86c1ea;
+    height: 161px;
 }
 
-.color3{
-    background: #b9982a;
-    height: 51px;
+.color3 {
+    background: #fff;
+    height: 161px;
 }
-.color4{
+
+.color4 {
     background: #86c1ea;
     height: 51px;
     height: 470px;
 }
-.item{
-    margin: 8px auto;
-   
+
+.color5 {
+    background: #2a80b9;
+    height: 51px;
+    height: 208px;
 }
-.join{
+
+.color6 {
+    background: #4e4e4e;
+    height: 51px;
+    height: 73px;
+}
+
+.item {
+    margin: 8px auto;
+}
+
+.join {
     float: right;
 }
+
+.joinUs {
+    padding-top: 10px;
+    color: #fff;
+    float: left;
+}
+
+.SecondPageAbout {
+    padding-top: 46px;
+}
+
+.SecondPageSubText {
+    padding-top: 46px;
+}
+
+.about {
+    padding-top: 26px;
+}
+
+.about__icon {
+    padding-top: 48px;
+    text-align: center;
+}
+
+.about__title {
+    color: #5f5f5f;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
 /* Nav */
+
 .nav {
     padding-top: 29px;
     font-family: 'Montserrat', sans-serif;
@@ -49,10 +97,8 @@
     vertical-align: top;
     margin: 0 5px;
     position: relative;
-
     color: #0F1F81;
-    text-decoration: none;
-
+    text-decoration: yellow;
     transition: color .1s linear;
 }
 
@@ -61,20 +107,18 @@
     display: block;
     width: 100%;
     height: 3px;
-
     background-color: #E32222;
     opacity: 0;
-
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1;
-
     transition: opacity .1s linear;
 }
 
 .nav__link:hover {
     color: #E32222;
+    text-decoration: none;
 }
 
 .nav__link:hover:after,
@@ -86,51 +130,260 @@
     color: #E32222;
 }
 
-.navigation{
+.navigation {
     padding-top: 10px;
 }
 
+
 /* Button */
+
 .btnDiscounts {
+    margin: 3px auto auto 180px;
     display: inline-block;
     vertical-align: top;
     padding: 3px 30px;
-
     border: 1px solid #fff;
-
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-
     transition: background .1s linear, color .1s linear;
 }
 
 .btnDiscounts:hover {
     background-color: #fff;
-    color: #0F1F81;
+    color: #2a80b9;
+    text-decoration: none;
 }
 
-.contact__text{
-    margin: 9px;
+.btnOrder {
+    margin: 338px auto auto 387px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 70px;
+    border: 0.1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #e84c3d;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
 }
+
+.btnOrder:hover {
+    border: 0.1px solid #e84c3d;
+    background-color: #fff;
+    color: #e84c3d;
+    text-decoration: none;
+}
+
+.btnLiveChat {
+    margin: -136px auto auto 0px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 12px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #2a80b9;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btnLiveChat:hover {
+    border: 1px solid #e84c3d;
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Main */
 
-
-.main{
+.main {
     margin: 10px;
+    background: url(../images/header_main/img_boy.png)no-repeat 0 101%, url(../images/header_main/img_books_lamp.png)no-repeat 100% 101%, url(../images/header_main/img_books_lamps.png)no-repeat 70% 86px;
+}
 
-    background: url(../images/header_main/img_boy.png)no-repeat 0 101%,url(../images/header_main/img_books_lamp.png)no-repeat 100% 101%,url(../images/header_main/img_books_lamps.png)no-repeat  70% 86px;
+.item__contact div {
+    margin: 1px;
+    display: inline-block;
+}
 
-    
+.item div {
+    display: inline-block;
+}
+
+.join {
+    margin: 10px;
+    display: inline-block;
+}
+
+.contact__number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.contact__text {
+    margin: 9px;
 }
 
 
+/* text Main */
+
+#Service {
+    margin-top: -354px;
+    margin-left: 209px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#Key {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#Place {
+    margin-left: -73px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 27px;
+    color: #002157;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#Quality {
+    max-width: 349px;
+    margin-left: 357px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 19px;
+    color: #002157;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 
+/* Second Page */
+
+.SecondPageTitle {
+    padding-top: 47px;
+    font-weight: 400;
+    text-align: center;
+    color: #002157;
+}
+
+.SecondPageSubTitle {
+    max-width: 10px;
+    padding-top: 46px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #002157;
+}
+
+.SecondPageSubText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
 
 
+/*  */
+
+#rectangle {
+    background: #86c1ea;
+    height: 161px;
+    width: 380;
+}
+
+.Work {
+    padding-top: 87px;
+    text-align: center;
+    background: url(../images/thirdpage_work/Shade.png)no-repeat 2.2% 47%, url(../images/thirdpage_work/Shade\ copy.png)no-repeat 42.5% 47.5%, url(../images/thirdpage_work/cloude.png)no-repeat 83.8% 47.5%, url(../images/thirdpage_work/Pen.png)no-repeat 19.4% 90.5%, url(../images/thirdpage_work/scan.png)no-repeat 63.5% 90.7%, url(../images/thirdpage_work/rectangle.png)no-repeat 42% 47%, url(../images/thirdpage_work/rectangle.png)no-repeat 85% 47%, url(../images/thirdpage_work/rectangle.png)no-repeat 18% 95%, url(../images/thirdpage_work/rectangle.png)no-repeat 64% 95%, url(../images/thirdpage_work/dot\ b.png)no-repeat 2.3% 69.6%, url(../images/thirdpage_work/dot\ y.png)no-repeat 19.3% 69.6%, url(../images/thirdpage_work/dot\ b.png)no-repeat 42.3% 69.6%, url(../images/thirdpage_work/dot\ y.png)no-repeat 63.3% 69.6%, url(../images/thirdpage_work/dot\ b.png)no-repeat 83.3% 69.6%, url(../images/thirdpage_work/Vector\ Smart\ Object.png)no-repeat 70% 69%, url(../images/thirdpage_work/rectangle.png)no-repeat 0 47%, url(../images/thirdpage_work/vertical\ shape\ copy\ 2.png)no-repeat 3% 63%, url(../images/thirdpage_work/vertical\ shape\ copy\ 2.png)no-repeat 19.7% 80%, url(../images/thirdpage_work/vertical\ shape\ copy\ 2.png)no-repeat 42.4% 63%, url(../images/thirdpage_work/vertical\ shape\ copy\ 2.png)no-repeat 63.1% 80%, url(../images/thirdpage_work/vertical\ shape\ copy\ 2.png)no-repeat 82.9% 63%;
+}
 
 
+/* */
+
+.FourPageSubTitle {
+    padding-top: 56px;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #002157;
+}
+
+.FourPageSubText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.firstSubText {
+    padding-top: 46px;
+}
+
+.btnReadMe {
+    align-items: center;
+    bottom: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 17px 46px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #2a80b9;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btnReadMe:hover {
+    border: 1px solid #e84c3d;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnRead {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.LoremIspum {
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #fff;
+}
+
+.ButtomContact {
+    padding-top: 38px;
+}
+
+.CopyRight {
+    color: #fff;
+    padding-top: 22px;
+}
+
+.WorkTitle {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
