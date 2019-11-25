@@ -200,7 +200,30 @@
     color: #fff;
 }
 
+.btnAbout {
+    height: 161px;
+    width: 350px;
+ 
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 12px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #86c1ea;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
 
+.btnAbout:hover {
+    border: 1px solid #86c1ea;
+    background: linear-gradient(to bottom, #81d8f3, #9b8afc);
+    transition: transform .2s linear;
+    text-decoration: none;
+    color: #fff;
+}
 /* Main */
 
 .main {
