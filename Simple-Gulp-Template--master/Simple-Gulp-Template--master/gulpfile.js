@@ -30,7 +30,7 @@ const path = {
         htmlTemplate: 'src/template/*.html',
         js: 'src/js/*.js',
         jsmain: 'src/js/main.js',
-        scss: 'src/css/*.scss',
+        scss: 'src/css/**/*.scss',
         css: 'src/css/styles/*.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'

@@ -1,0 +1,7 @@
+
+@mixin btn($font-size,$font-family,$color,$background) {
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $color;
+    background-color: $background;
+}
