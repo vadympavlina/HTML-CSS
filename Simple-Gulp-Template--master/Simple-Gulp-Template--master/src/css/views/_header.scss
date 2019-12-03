@@ -2,8 +2,8 @@
 .before_header{
     width: 100%;
     height: 57px;
-    background-color: $--bg-color-primary-1;
-    background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat;
+    background-color: $--bg-color-primary-1;   
+    background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat ;
     background-size: 190%;
     background-position-y: 50%;
 }
@@ -29,6 +29,74 @@
     background: $--bg-color-primary-2 url('../img/header/Bg2.svg')no-repeat;
     background-size: 190%;
     background-position-y: 60%;
-    
+}
 
+.header-contact{
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: $font-roboto_thin;
+    color: $--font-color-primary-1;
+
+}
+.footer-phone{
+    font-family: $font-roboto_condesedregular;
+    text-decoration: none;  
+    color: $--font-color-primary-1;
+}
+
+.btnLogin {
+  
+    text-decoration: none;
+   color:$--font-color-primary-1;
+   font-size: 24px;
+   font-family: $font-roboto_condesedregular;
+   :hover{
+       color: $--font-color-primary-3;
+   }
+}
+
+.btnLogin img{
+width: 26px
+}
+
+.login-header{
+    text-align: right;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/* Nav */
+
+.nav {
+    padding-top: 4px;
+
+    width: 100%;
+    align-items: center;
+    font-family: $font-roboto_condesedregular;
+    font-size: 22px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav__link {
+    
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 18px;
+    position: relative;
+    color: $--font-color-primary-1;
+    text-decoration: yellow;
+    transition: color .1s linear;
+}
+
+
+.nav__link:hover {
+    color: $--font-color-primary-3;
+    background-color: $--bg-color-btn-2--hover;
+    text-decoration: none;
+}
+.nav__link.active {
+    color: $--font-color-primary-3; 
+    background-color: $--bg-color-btn-2--hover;
 }
