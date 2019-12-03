@@ -3,8 +3,9 @@
     width: 100%;
     height: 57px;
     background-color: $--bg-color-primary-1;
-    background: $--bg-color-primary-1 url('../img/header/Bg Dark2.svg')no-repeat;
-
+    background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat;
+    background-size: 190%;
+    background-position-y: 50%;
 }
 
 
@@ -19,14 +20,15 @@
 .main_header{
     width: 100%;
     height: 470px;
-
+    background: $--bg-color-primary-3 url('../img/header/woman.svg')no-repeat;
+    background-position-y: 3.3%;
 }
 .nav_header{
     width: 100%;
     height: 110px;
-    background-color: $--bg-color-primary-2;
-    background: $--bg-color-primary-1 url('../img/header/Bg1.svg')no-repeat;
+    background: $--bg-color-primary-2 url('../img/header/Bg2.svg')no-repeat;
     background-size: 190%;
+    background-position-y: 60%;
     
 
 }
