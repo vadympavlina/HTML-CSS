@@ -6,7 +6,7 @@
     background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat ;
     background-size: 190%;
     background-position-y: 50%;
-}
+    }
 
 
 .menu_header{
@@ -20,8 +20,9 @@
 .main_header{
     width: 100%;
     height: 470px;
-    background: $--bg-color-primary-3 url('../img/header/woman.svg')no-repeat;
+    background: $--bg-color-primary-5 url('../img/header/woman.svg')no-repeat;
     background-position-y: 3.3%;
+    background-position-x: 35%;
 }
 .nav_header{
     width: 100%;
@@ -50,8 +51,9 @@
    color:$--font-color-primary-1;
    font-size: 24px;
    font-family: $font-roboto_condesedregular;
-   :hover{
+   &:hover{
        color: $--font-color-primary-3;
+       
    }
 }
 
@@ -69,7 +71,7 @@ width: 26px
 
 .nav {
     padding-top: 4px;
-
+    color: $--font-color-primary-1;
     width: 100%;
     align-items: center;
     font-family: $font-roboto_condesedregular;
@@ -83,7 +85,7 @@ width: 26px
     
     display: inline-block;
     vertical-align: top;
-    margin: 0 18px;
+    margin: 0 14px;
     position: relative;
     color: $--font-color-primary-1;
     text-decoration: yellow;
@@ -99,4 +101,38 @@ width: 26px
 .nav__link.active {
     color: $--font-color-primary-3; 
     background-color: $--bg-color-btn-2--hover;
+}
+
+.LogoSVG{
+    position: relative;
+    left: -10px;
+    padding-top: 10px;
+}
+
+.btnBetter{
+    background-color: $--bg-color-btn-4;
+    color: $--bg-color-btn-4--hover;
+    &:after{
+        border-color: $--bg-color-btn-4 transparent transparent;
+    }
+    &:hover{
+        background-color: $--bg-color-btn-4--hover;
+        color: $--bg-color-btn-4 ;
+    }
+    &:hover::after{
+        border-color: $--bg-color-btn-4--hover transparent transparent;
+
+    }
+}
+.RowWithUs{
+   margin-top: 10px;
+   height: 460px;
+}
+
+
+
+.OfferUl{
+      &:before {
+        color:red;
+      }
 }
