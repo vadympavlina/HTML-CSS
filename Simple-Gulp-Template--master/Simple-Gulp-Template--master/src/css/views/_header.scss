@@ -1,138 +1,155 @@
-
-.before_header{
-    width: 100%;
-    height: 57px;
-    background-color: $--bg-color-primary-1;   
-    background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat ;
-    background-size: 190%;
-    background-position-y: 50%;
-    }
-
-
-.menu_header{
-    width: 100%;
-    height: 40px;
-    background-color: $--bg-color-primary-2;
-
-
-}
-
-.main_header{
-    width: 100%;
-    height: 470px;
-    background: $--bg-color-primary-5 url('../img/header/woman.svg')no-repeat;
-    background-position-y: 3.3%;
-    background-position-x: 35%;
-}
-.nav_header{
-    width: 100%;
-    height: 110px;
-    background: $--bg-color-primary-2 url('../img/header/Bg2.svg')no-repeat;
-    background-size: 190%;
-    background-position-y: 60%;
-}
-
-.header-contact{
-    padding-top: 13px;
-    font-size: 20px;
-    font-family: $font-roboto_thin;
-    color: $--font-color-primary-1;
-
-}
-.footer-phone{
-    font-family: $font-roboto_condesedregular;
-    text-decoration: none;  
-    color: $--font-color-primary-1;
-}
-
-.btnLogin {
-  
-    text-decoration: none;
-   color:$--font-color-primary-1;
-   font-size: 24px;
-   font-family: $font-roboto_condesedregular;
-   &:hover{
-       color: $--font-color-primary-3;
-       
-   }
-}
-
-.btnLogin img{
-width: 26px
-}
-
-.login-header{
-    text-align: right;
-    padding-top: 10px;
-    display: inline-block;
-}
-
-/* Nav */
-
-.nav {
-    padding-top: 4px;
-    color: $--font-color-primary-1;
-    width: 100%;
-    align-items: center;
-    font-family: $font-roboto_condesedregular;
-    font-size: 22px;
-    text-transform: uppercase;
-    float: right;
-}
-
-.nav__link {
+header{
+    .before_header{
+        width: 100%;
+        height: 57px;
+        background-color: $--bg-color-primary-1;   
+        background: $--bg-color-primary-1 url('../img/header/Bg1-1.svg')no-repeat ;
+        background-size: 190%;
+        background-position-y: 50%;
+        }
     
     
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 14px;
-    position: relative;
-    color: $--font-color-primary-1;
-    text-decoration: yellow;
-    transition: color .1s linear;
-}
-
-
-.nav__link:hover {
-    color: $--font-color-primary-3;
-    background-color: $--bg-color-btn-2--hover;
-    text-decoration: none;
-}
-.nav__link.active {
-    color: $--font-color-primary-3; 
-    background-color: $--bg-color-btn-2--hover;
-}
-
-.LogoSVG{
-    position: relative;
-    left: -10px;
-    padding-top: 10px;
-}
-
-.btnBetter{
-    background-color: $--bg-color-btn-4;
-    color: $--bg-color-btn-4--hover;
-    &:after{
-        border-color: $--bg-color-btn-4 transparent transparent;
+    .menu_header{
+        width: 100%;
+        height: 40px;
+        background-color: $--bg-color-primary-2;
+    
+    
     }
-    &:hover{
-        background-color: $--bg-color-btn-4--hover;
-        color: $--bg-color-btn-4 ;
+    
+    .main_header{
+        width: 100%;
+        height: 470px;
+        background: $--bg-color-primary-5 url('../img/header/woman.svg')no-repeat;
+        background-position-y: 3.3%;
+        background-position-x: 35%;
     }
-    &:hover::after{
-        border-color: $--bg-color-btn-4--hover transparent transparent;
-
+    .nav_header{
+        width: 100%;
+        height: 110px;
+        background: $--bg-color-primary-2 url('../img/header/Bg2.svg')no-repeat;
+        background-size: 190%;
+        background-position-y: 60%;
     }
-}
-.RowWithUs{
-   margin-top: 10px;
-   height: 460px;
+    
+    .header-contact{
+        padding-top: 13px;
+        font-size: 20px;
+        font-family: $font-roboto_thin;
+        color: $--font-color-primary-1;
+    
+    }
+    .footer-phone{
+        font-family: $font-roboto_condesedregular;
+        text-decoration: none;  
+        color: $--font-color-primary-1;
+    }
+    
+    .btnLogin {
+      
+        text-decoration: none;
+       color:$--font-color-primary-1;
+       font-size: 24px;
+       font-family: $font-roboto_condesedregular;
+       &:hover{
+           color: $--font-color-primary-3;
+           
+       }
+    }
+    
+    .btnLogin img{
+    width: 26px
+    }
+    
+    .login-header{
+        text-align: right;
+        padding-top: 10px;
+        display: inline-block;
+    }
+    
+    /* Nav */
+    
+    .nav {
+        padding-top: 4px;
+        color: $--font-color-primary-1;
+        width: 100%;
+        align-items: center;
+        font-family: $font-roboto_condesedregular;
+        font-size: 22px;
+        text-transform: uppercase;
+        float: right;
+    }
+    
+    .nav__link {
+        
+        
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 14px;
+        position: relative;
+        color: $--font-color-primary-1;
+        text-decoration: yellow;
+        transition: color .1s linear;
+    }
+    
+    
+    .nav__link:hover {
+        border-color: $--bg-color-btn-2--hover;
+        color: $--font-color-primary-3;
+        background-color: $--bg-color-btn-2--hover;
+        text-decoration: none;
+    }
+    .nav__link.active {
+        color: $--font-color-primary-3; 
+        background-color: $--bg-color-btn-2--hover;
+    }
+    
+    .LogoSVG{
+        position: relative;
+        left: -10px;
+        padding-top: 10px;
+    }
+    
+    .btnBetter{
+        background-color: $--bg-color-btn-4;
+        color: $--bg-color-btn-4--hover;
+        &:after{
+            border-color: $--bg-color-btn-4 transparent transparent;
+        }
+        &:hover{
+            background-color: $--bg-color-btn-4--hover;
+            color: $--bg-color-btn-4 ;
+        }
+        &:hover::after{
+            border-color: $--bg-color-btn-4--hover transparent transparent;
+    
+        }
+    }
+    .RowWithUs{
+       margin-top: 10px;
+       height: 460px;
+    }
+    
+    
+    
+      .main_header ul li {
+        color: #000;
+        font-family: "Arial Narrow",sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        padding-left: 25px;
+        list-style: none;
+    }
+        .main_header ul li:before {
+        color: #1b7fd0;
+        content: '\f111';
+        font-size: 8px;
+        font-family: FontAwesome;
+        position: absolute;
+        top: -1px;
+        left: 10px;
+        }
 }
 
-
-
-.OfferUl{
-      &:before {
-        color:red;
-      }
-}
