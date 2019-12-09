@@ -23,6 +23,7 @@ header{
         background: $--bg-color-primary-5 url('../img/header/woman.svg')no-repeat;
         background-position-y: 3.3%;
         background-position-x: 35%;
+
     }
     .nav_header{
         width: 100%;
@@ -132,24 +133,35 @@ header{
     
     
     
-      .main_header ul li {
-        color: #000;
-        font-family: "Arial Narrow",sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 26px;
-        position: relative;
-        padding-left: 25px;
-        list-style: none;
-    }
-        .main_header ul li:before {
-        color: #1b7fd0;
-        content: '\f111';
-        font-size: 8px;
-        font-family: FontAwesome;
-        position: absolute;
-        top: -1px;
-        left: 10px;
+    ul {
+       
+        li {
+            font-size: 20px;
+            padding-top: 10px;
+          color: $--font-color-primary-4;
         }
+        li span {
+          color: $--font-color-primary-5;
+        }
+      }
+        #row_about{
+            padding-top: 8px;
+        }
+        .btn_about{
+            border: 1px solid $--bg-color-btn-2--hover;
+            background-color: transparent;
+            font-size: 18px;
+            font-family: $font-roboto_condesedregular;
+            width: 100%;
+        
+        
+        }
+.btn_Order{
+    width: 70%;
+    
+}
+#about{
+    margin-top: 20px;
+}
 }
 
