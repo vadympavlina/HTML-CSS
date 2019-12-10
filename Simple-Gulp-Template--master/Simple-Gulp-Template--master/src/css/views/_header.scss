@@ -112,6 +112,7 @@ header{
     }
     
     .btnBetter{
+
         background-color: $--bg-color-btn-4;
         color: $--bg-color-btn-4--hover;
         &:after{
@@ -148,12 +149,17 @@ header{
             padding-top: 8px;
         }
         .btn_about{
+            transition: transform .2s;
             border: 1px solid $--bg-color-btn-2--hover;
             background-color: transparent;
             font-size: 18px;
             font-family: $font-roboto_condesedregular;
             width: 100%;
-        
+        &:hover{
+            transform: scale(1.1);
+            background-color: transparent;
+            color: $--font-color-primary-2;
+        }
         
         }
 .btn_Order{

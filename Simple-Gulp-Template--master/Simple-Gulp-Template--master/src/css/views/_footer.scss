@@ -1,0 +1,56 @@
+footer{
+   .row{
+       padding-top: 26px;
+   }
+    
+.license_row{
+    
+    height: 72px;
+    background-color: $--font-color-primary-1;
+}
+.license{
+    height: 72px;
+    background-color: $--font-color-primary-1;
+    background:  $--font-color-primary-1 url('../img/footer/Card.png')no-repeat ;
+    background-position-y: 15px;
+
+
+}
+/*=========================================================*/
+
+.btnFacebook{  
+    background: url('../img/footer/Facebook.svg')no-repeat ;
+    background-size: 10px;
+color: transparent;
+&:hover{
+    background: url('../img/footer/Facebook2.svg')no-repeat ;
+    background-size: 10px;
+
+}
+}
+/*=========================================================*/
+
+.btnTwitter{  
+    background: url('../img/footer/Twiter.svg')no-repeat ;
+    background-size: 17px;
+color: transparent;
+&:hover{
+    background: url('../img/footer/Twiter2.svg')no-repeat ;
+    background-size: 17px;
+
+}
+}
+/*=========================================================*/
+
+.btnPintrest{  
+    background: url('../img/footer/Pinterest.svg')no-repeat ;
+    background-size: 15px;
+color: transparent;
+&:hover{
+    background: url('../img/footer/Pinterest2.svg')no-repeat ;
+    background-size: 15px;
+
+}
+}
+}
+
